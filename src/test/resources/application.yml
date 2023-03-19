@@ -1,0 +1,7 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: paze-test-assignment
+  profiles:
+    active: ${APP_PROFILE:test}

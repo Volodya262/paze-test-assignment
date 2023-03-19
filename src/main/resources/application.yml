@@ -1,0 +1,10 @@
+server:
+  port: 12000
+spring:
+  thymeleaf:
+    prefix: file:src/main/resources/templates/
+    cache: false
+  application:
+    name: paze-test-assignment
+  profiles:
+    active: ${APP_PROFILE:default}
